@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apurva Chavan → Mercor — Tailored One‑Pager</title>
+  <meta name="description" content="Apurva Ravikar Chavan — Data Scientist application tailored for Mercor." />
+  <style>
+    :root {
+      --bg: #0b0d10;
+      --panel: #12151b;
+      --ink: #eaf0f7;
+      --muted: #9fb0c7;
+      --brand: #5ae3b3; /* minty accent */
+      --brand-2: #4dc1ff; /* cyan accent */
+      --chip: #1b2029;
+      --ring: rgba(90, 227, 179, 0.35);
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 80% -10%, rgba(77,193,255,.12), transparent),
+                  radial-gradient(900px 700px at -10% 20%, rgba(90,227,179,.10), transparent),
+                  var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    a { color: var(--brand-2); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 24px; }
+    header {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      padding: 16px 0 6px; border-bottom: 1px solid rgba(255,255,255,.06);
+    }
+    .logo { display: flex; align-items: center; gap: 12px; }
+    .logo .mark { width: 28px; height: 28px; border-radius: 8px; background: linear-gradient(135deg, var(--brand), var(--brand-2)); box-shadow: 0 0 0 6px var(--ring); }
+    .logo h1 { font-size: 18px; margin: 0; font-weight: 650; letter-spacing: .2px; }
+    .cta { display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn {
+      border: 1px solid rgba(255,255,255,.12);
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      padding: 10px 14px; border-radius: 12px; color: var(--ink); text-decoration: none; font-weight: 600;
+      transition: transform .12s ease, border-color .12s ease;
+    }
+    .btn:hover { transform: translateY(-1px); border-color: var(--brand-2); }
+    .btn.primary { background: linear-gradient(180deg, var(--brand), var(--brand-2)); color: #051015; border: none; }
+
+    /* Hero */
+    .hero { display: grid; grid-template-columns: 1.5fr 1fr; gap: 28px; padding: 28px 0; align-items: center; }
+    .hero h2 { font-size: clamp(28px, 4.2vw, 44px); line-height: 1.15; margin: 6px 0 10px; }
+    .hero p { color: var(--muted); margin: 0 0 12px; }
+    .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+    .chip { padding: 8px 10px; background: var(--chip); border: 1px solid rgba(255,255,255,.07); border-radius: 999px; font-size: 13px; }
+    .panel { background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); border: 1px solid rgba(255,255,255,.08); border-radius: 16px; padding: 16px; }
+    .stamp { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+    /* Sections */
+    section { margin-top: 34px; }
+    h3 { font-size: 18px; letter-spacing: .3px; margin: 0 0 12px; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; }
+    .col-4 { grid-column: span 4; }
+    .col-6 { grid-column: span 6; }
+    .col-8 { grid-column: span 8; }
+    .card { background: var(--panel); border: 1px solid rgba(255,255,255,.08); border-radius: 14px; padding: 16px; }
+    .card h4 { margin: 2px 0 6px; font-size: 16px; }
+    .muted { color: var(--muted); font-size: 14px; }
+    ul.tight { margin: 8px 0 0 18px; padding: 0; }
+    ul.tight li { margin: 6px 0; }
+
+    /* Footer */
+    footer { margin: 36px 0 12px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.08); color: var(--muted); font-size: 13px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; }
+      .col-8, .col-6, .col-4 { grid-column: span 12; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">
+        <div class="mark" aria-hidden="true"></div>
+        <h1>Apurva Ravikar Chavan → <span style="opacity:.9">Mercor</span></h1>
+      </div>
+      <nav class="cta">
+        <a class="btn" href="mailto:apurvachavan125@gmail.com">Email</a>
+        <a class="btn" href="https://www.linkedin.com/in/apurvachavan125/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/Apurva1205" target="_blank" rel="noopener">GitHub</a>
+        
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <p class="stamp">Tailored for: <strong>Mercor · Data Scientist</strong> · Contact: <strong>Filip Vrnoga</strong></p>
+        <h2>Data scientist who ships fast analyses & experiments that move core product metrics.</h2>
+        <p>
+          I frame the question, instrument events, A/B test rigorously, and land decisions the same week. Production‑minded: clean data → models → dashboards → reliable shipping.
+        </p>
+        <div class="chips">
+          <span class="chip">Python · SQL</span>
+          <span class="chip">Experiment Design</span>
+          <span class="chip">LLM/Agent Evaluation</span>
+          <span class="chip">Ranking · Scoring</span>
+          <span class="chip">Dashboards/Hex‑style</span>
+          $1
+          <span class="chip">Prompt &amp; Eval Harness</span>
+          <span class="chip">RAG · Guardrails</span>
+        </div>
+      </div>
+      <aside class="panel">
+        <h3 style="margin-top:0">Quick profile</h3>
+        <div class="muted">New Haven → Open to relocate to SF · Onsite/Hybrid OK</div>
+        <ul class="tight">
+          <li><strong>Tooling:</strong> pandas, NumPy, scikit‑learn, PyTorch; SQL; Git/Linux</li>
+          <li><strong>Analytics:</strong> KPI design, causal thinking, A/B & quasi‑experiments</li>
+          <li><strong>Ops:</strong> CI/CD for analytics, experiment tracking, data contracts</li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- ROLE MATCH -->
+    <section>
+      <h3>Why I’m a fit for Mercor’s DS role</h3>
+      <div class="grid">
+        <div class="card col-6">
+          <h4>Define the right metrics</h4>
+          <p class="muted">I’ve led end‑to‑end KPI design for ranking & matching features; clear north‑stars with guardrails.</p>
+          <ul class="tight">
+            <li>Translate product questions → measurable success criteria</li>
+            <li>Set feature‑level metrics and health checks</li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h4>Design & run experiments</h4>
+          <p class="muted">Comfortable with A/Bs and quasi‑experiments when randomization is hard; crisp readouts → action.</p>
+          <ul class="tight">
+            <li>Pre‑analysis plans, power checks, and MDE</li>
+            <li>Fast loops from result → product decision</li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h4>Dashboards & source‑of‑truth</h4>
+          <p class="muted">I build trustworthy data models and lightweight dashboards so teams can self‑serve.</p>
+          <ul class="tight">
+            <li>Event instrumentation and latency tuning</li>
+            <li>dbt‑style contracts and freshness tests</li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h4>LLM/agent evaluation</h4>
+          <p class="muted">Hands‑on with rubric design, HITL loops, and canary guardrails for LLM‑powered systems.</p>
+          <ul class="tight">
+            <li>Qual/quant rubrics, scenario banks, error taxonomies</li>
+            <li>Scorecards feeding ranking & payouts logic</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- LLM EXPERIENCE -->
+    <section>
+      <h3>LLM experience &amp; how I’ll help Mercor</h3>
+      <div class="grid">
+        <div class="card col-6">
+          <h4>Evaluation &amp; Quality</h4>
+          <p class="muted">Designed eval harnesses &amp; human‑in‑the‑loop rubrics for agentic systems.</p>
+          <ul class="tight">
+            <li>Scenario banks, error taxonomies, pass@k &amp; rubric scores surfaced in dashboards</li>
+            <li>Canary tests + guardrails to catch unsafe/low‑quality outputs pre‑production</li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h4>Matching &amp; Ranking</h4>
+          <p class="muted">Use embeddings + gradient boosting baselines to improve candidate‑role matching.</p>
+          <ul class="tight">
+            <li>Offline eval → online A/B; calibrate scores against revenue &amp; time‑to‑hire</li>
+            <li>Cold‑start strategies with metadata and distillation from editorial labels</li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h4>Labeling Ops &amp; Data Quality</h4>
+          <p class="muted">Set up lightweight labeling workflows for fast iteration.</p>
+          <ul class="tight">
+            <li>Consensus/IA checks, spot audits, and drift monitors on contractors’ outputs</li>
+            <li>dbt‑style tests and freshness SLAs on event pipelines feeding models</li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h4>Cost &amp; Latency</h4>
+          <p class="muted">Reduce spend and p95 latency with caching, routing, and smaller specialists.</p>
+          <ul class="tight">
+            <li>Prompt templates + retrieval guards; batch inference where safe</li>
+            <li>Traceability: per‑prompt cost, win‑rate, and regression alarms</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section>
+      <h3>Evidence & recent work</h3>
+      <div class="grid">
+        <article class="card col-6">
+          <h4>AI Resume Enhancer (IR + Scoring)</h4>
+          <p class="muted">Built a parser + matching engine using embeddings to surface gaps & boost ATS outcomes.</p>
+          <ul class="tight">
+            <li>Ranking metrics and ablations to improve match quality</li>
+            <li>Real‑time API powering a simple dashboard</li>
+          </ul>
+          <p><a href="https://github.com/Apurva1205/AI-RESUME-ENHANCER" target="_blank" rel="noopener">View repository ↗</a></p>
+        </article>
+        <article class="card col-6">
+          <h4>Energy Forecasting (ARIMA/LSTM)</h4>
+          <p class="muted">Time‑series forecasting with anomaly alerts; productionized pipelines for reliability.</p>
+          <ul class="tight">
+            <li>Clear north‑star: forecast error & alert precision</li>
+            <li>Notebook → dashboard handoff for ops teams</li>
+          </ul>
+          <p><a href="https://github.com/Apurva1205/Time-Series-Forecasting-For-Energy-Consumption" target="_blank" rel="noopener">View repository ↗</a></p>
+        </article>
+        <article class="card col-6">
+          <h4>LLM‑Powered Financial Agent</h4>
+          <p class="muted">Prototyped LLM features end‑to‑end; added telemetry and guardrails for safe outputs.</p>
+          <ul class="tight">
+            <li>Prompt/response logging with rubric‑based scoring</li>
+            <li>Iterative eval sets for regressions</li>
+          </ul>
+        </article>
+        <article class="card col-6">
+          <h4>Low‑Resource EN↔BE Translation</h4>
+          <p class="muted">Built a bilingual pipeline and tuned for BLEU; explored transfer learning and data curation.</p>
+          <ul class="tight">
+            <li>Pairs well with agent/task evaluation design</li>
+            <li>Showcases careful metric‑driven iteration</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- 1-WEEK PLAN -->
+    <section>
+      <h3>How I’d create impact in Week 1</h3>
+      <div class="grid">
+        <div class="card col-8">
+          <ul class="tight">
+            <li><strong>Day 1–2:</strong> Align on north‑star + feature metrics for matching & candidate experience; audit current event schema.</li>
+            <li><strong>Day 3:</strong> Ship a lightweight source‑of‑truth model (staging) and a starter dashboard for the team.</li>
+            <li><strong>Day 4:</strong> Propose an A/B or quasi‑experiment with power/MDE; add missing instrumentation.</li>
+            <li><strong>Day 5:</strong> First readout + decision doc; backlog of next best experiments.</li>
+          </ul>
+        </div>
+        <div class="card col-4">
+          <h4 style="margin-top:0">Working style</h4>
+          <p class="muted">Crisp docs, small diffs, measurable wins. I bias to ship, learn, and iterate.</p>
+          <div class="chips">
+            <span class="chip">Docs → Decisions</span>
+            <span class="chip">Tidy Data</span>
+            <span class="chip">Ship Weekly</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section>
+      <div class="card">
+        <h3 style="margin:0 0 6px">Let’s talk</h3>
+        <p class="muted" style="margin:0 0 10px">15‑minute intro? I’m happy to share a quick walkthrough of experiments I’ve shipped and how I’d tackle Mercor’s metrics.</p>
+        <div class="cta">
+          <a class="btn primary" href="mailto:apurvachavan125@gmail.com?subject=Mercor%20—%2015‑min%20chat&body=Hi%20Apurva%2C%0D%0A%0D%0AThanks%20for%20sharing%20your%20one‑pager.%20We’d%20love%20to%20chat...">Email Apurva</a>
+          <a class="btn" href="https://www.linkedin.com/in/apurvachavan125/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+          <a class="btn" href="https://github.com/Apurva1205" target="_blank" rel="noopener">Browse GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> Apurva Ravikar Chavan</div>
+      <div class="muted">Built with plain HTML/CSS</div>
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
